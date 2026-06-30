@@ -1,0 +1,1208 @@
+{
+  "data": [
+    {
+      "id": "wan2.5-i2i-preview",
+      "hugging_face_id": "",
+      "name": "wan2.5-i2i-preview",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "通用图像编辑",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0.200000",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.5-i2i-preview"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.5-t2i-preview",
+      "hugging_face_id": "",
+      "name": "wan2.5-t2i-preview",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生图",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0.200000",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.5-t2i-preview"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.5-i2v-preview",
+      "hugging_face_id": "",
+      "name": "wan2.5-i2v-preview",
+      "created": 0,
+      "input_modalities": [
+        "image",
+        "video",
+        "audio"
+      ],
+      "output_modalities": [
+        "image",
+        "video",
+        "audio"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "图生视频(可带音频)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.300000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "图生视频(可带音频)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "图生视频(可带音频)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.5-i2v-preview"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.5-t2v-preview",
+      "hugging_face_id": "",
+      "name": "wan2.5-t2v-preview",
+      "created": 0,
+      "input_modalities": [
+        "video",
+        "audio"
+      ],
+      "output_modalities": [
+        "video",
+        "audio"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生视频(可带音频)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.300000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生视频(可带音频)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生视频(可带音频)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.5-t2v-preview"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.6-i2v",
+      "hugging_face_id": "",
+      "name": "wan2.6-i2v",
+      "created": 0,
+      "input_modalities": [
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "image",
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "图生视频",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "图生视频",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.6-i2v"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.6-i2v-flash",
+      "hugging_face_id": "",
+      "name": "wan2.6-i2v-flash",
+      "created": 0,
+      "input_modalities": [
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "image",
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "图生视频 Flash",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.300000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "图生视频 Flash",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.500000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "图生视频 Flash",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.150000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "图生视频 Flash",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.250000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.6-i2v-flash"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.6-t2v",
+      "hugging_face_id": "",
+      "name": "wan2.6-t2v",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生视频",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生视频",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.6-t2v"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.6-t2i",
+      "hugging_face_id": "",
+      "name": "wan2.6-t2i",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "文生图",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0.200000",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.6-t2i"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "wan2.6-image",
+      "hugging_face_id": "",
+      "name": "wan2.6-image",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "图像编辑/参考图",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0.200000",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "wan2.6-image"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "doubao-seedance-2.0",
+      "hugging_face_id": "",
+      "name": "doubao-seedance-2.0",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入不含视频",
+          "inputMode": "t2v/i2v/ref2v",
+          "prompt": "0.000046",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入含视频",
+          "inputMode": "t2v/i2v/ref2v",
+          "prompt": "0.000028",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入不含视频",
+          "inputMode": "t2v/i2v/ref2v",
+          "prompt": "0.000051",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入含视频",
+          "inputMode": "t2v/i2v/ref2v",
+          "prompt": "0.000031",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入不含视频",
+          "inputMode": "t2v/i2v/ref2v",
+          "prompt": "0.000026",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入含视频",
+          "inputMode": "t2v/i2v/ref2v",
+          "prompt": "0.000016",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "doubao-seedance-2.0"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "doubao-seedance-2.0-fast",
+      "hugging_face_id": "",
+      "name": "doubao-seedance-2.0-fast",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入不含视频",
+          "inputMode": "t2v/i2v/ref2v(最高720P)",
+          "prompt": "0.000037",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "输入含视频",
+          "inputMode": "t2v/i2v/ref2v(最高720P)",
+          "prompt": "0.000022",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "doubao-seedance-2.0-fast"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "gemini-2.5-flash-image (Nano Banana)",
+      "hugging_face_id": "",
+      "name": "gemini-2.5-flash-image (Nano Banana)",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "Standard（输入价格）",
+          "inputMode": "文生图/图像编辑",
+          "prompt": "0.0000003",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "Standard（输出价格）",
+          "inputMode": "文生图/图像编辑",
+          "prompt": "0",
+          "completion": "0.00003",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "gemini-2.5-flash-image (Nano Banana)"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "gemini-3-pro-image (Nano Banana Pro)",
+      "hugging_face_id": "",
+      "name": "gemini-3-pro-image (Nano Banana Pro)",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "Standard（输入价格）",
+          "inputMode": "文生图/图像编辑(≤14参考图)",
+          "prompt": "0.000002",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "Standard（输出价格）",
+          "inputMode": "文生图/图像编辑(≤14参考图)",
+          "prompt": "0",
+          "completion": "0.000012",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "gemini-3-pro-image (Nano Banana Pro)"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "gemini-3.1-flash-image (Nano Banana 2)",
+      "hugging_face_id": "",
+      "name": "gemini-3.1-flash-image (Nano Banana 2)",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "Standard",
+          "inputMode": "专业级文生图/编辑",
+          "prompt": "0.0000005",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "Standard",
+          "inputMode": "专业级文生图/编辑",
+          "prompt": "0.000003",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "gemini-3.1-flash-image (Nano Banana 2)"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "veo-3.1",
+      "hugging_face_id": "",
+      "name": "veo-3.1",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "带音频",
+          "inputMode": "t2v/i2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.400000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "带音频",
+          "inputMode": "t2v/i2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "veo-3.1"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "veo-3.1-fast",
+      "hugging_face_id": "",
+      "name": "veo-3.1-fast",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "带音频",
+          "inputMode": "t2v/i2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.100000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "带音频",
+          "inputMode": "t2v/i2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.200000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "veo-3.1-fast"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "kling-v3 (t2v/i2v/首尾帧)",
+      "hugging_face_id": "",
+      "name": "kling-v3 (t2v/i2v/首尾帧)",
+      "created": 0,
+      "input_modalities": [
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "image",
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "文生/图生视频(共用模型)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "文生/图生视频(共用模型)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.800000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "文生/图生视频(共用模型)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "3.000000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "文生/图生视频(共用模型)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.900000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "文生/图生视频(共用模型)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.200000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "文生/图生视频(共用模型)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "3.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "kling-v3 (t2v/i2v/首尾帧)"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "kling-v3-omni (t2v/i2v/ref2v)",
+      "hugging_face_id": "",
+      "name": "kling-v3-omni (t2v/i2v/ref2v)",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "Omni无参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.600000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "Omni无参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.800000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "无声",
+          "inputMode": "Omni无参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "3.000000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "Omni无参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.800000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "Omni无参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.000000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "有声",
+          "inputMode": "Omni无参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "3.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "kling-v3-omni (t2v/i2v/ref2v)"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "kling-v3-omni (v2v/v2v-edit)",
+      "hugging_face_id": "",
+      "name": "kling-v3-omni (v2v/v2v-edit)",
+      "created": 0,
+      "input_modalities": [
+        "video"
+      ],
+      "output_modalities": [
+        "video"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "Omni有参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.900000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "Omni有参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.200000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "",
+          "inputMode": "Omni有参考视频分支",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "3.000000",
+          "input_cache_read": "0"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "kling-v3-omni (v2v/v2v-edit)"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "gpt-image-2",
+      "hugging_face_id": "",
+      "name": "gpt-image-2",
+      "created": 0,
+      "input_modalities": [
+        "image"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "图像输入",
+          "inputMode": "文生图/图像编辑(≤2K)",
+          "prompt": "0.000008",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "图像输入(缓存)",
+          "inputMode": "文生图/图像编辑(≤2K)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0.000002"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "图像输出",
+          "inputMode": "文生图/图像编辑(≤2K)",
+          "prompt": "0",
+          "completion": "0.00003",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "文本输入",
+          "inputMode": "文生图/图像编辑(≤2K)",
+          "prompt": "0.000005",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "文本输入(缓存)",
+          "inputMode": "文生图/图像编辑(≤2K)",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0",
+          "input_cache_read": "0.00000125"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "gpt-image-2"
+      },
+      "datacenters": []
+    }
+  ]
+}
