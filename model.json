@@ -461,9 +461,9 @@
       "datacenters": []
     },
     {
-      "id": "doubao-seedance-2.0",
+      "id": "doubao-seedance-2-0",
       "hugging_face_id": "",
-      "name": "doubao-seedance-2.0",
+      "name": "doubao-seedance-2-0",
       "created": 0,
       "input_modalities": [
         "video"
@@ -554,14 +554,14 @@
       "is_free": false,
       "discount_to_user": 0,
       "openrouter": {
-        "slug": "doubao-seedance-2.0"
+        "slug": "doubao-seedance-2-0"
       },
       "datacenters": []
     },
     {
-      "id": "doubao-seedance-2.0-fast",
+      "id": "doubao-seedance-2-0-fast",
       "hugging_face_id": "",
-      "name": "doubao-seedance-2.0-fast",
+      "name": "doubao-seedance-2-0-fast",
       "created": 0,
       "input_modalities": [
         "video"
@@ -604,7 +604,7 @@
       "is_free": false,
       "discount_to_user": 0,
       "openrouter": {
-        "slug": "doubao-seedance-2.0-fast"
+        "slug": "doubao-seedance-2-0-fast"
       },
       "datacenters": []
     },
@@ -823,6 +823,18 @@
       "context_length": 0,
       "max_output_length": 0,
       "pricing": [
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "带音频",
+          "inputMode": "t2v/i2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.100000",
+          "input_cache_read": "0"
+        },
         {
           "range_start": 0,
           "range_end": null,
