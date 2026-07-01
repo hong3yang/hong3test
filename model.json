@@ -18,8 +18,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "通用图像编辑",
+          "label": "image2image",
+          "inputMode": "i2i",
           "prompt": "0",
           "completion": "0",
           "image": "0.200000",
@@ -56,8 +56,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生图",
+          "label": "text2image",
+          "inputMode": "t2i",
           "prompt": "0",
           "completion": "0",
           "image": "0.200000",
@@ -82,14 +82,10 @@
       "name": "wan2.5-i2v-preview",
       "created": 0,
       "input_modalities": [
-        "image",
-        "video",
-        "audio"
+        "video"
       ],
       "output_modalities": [
-        "image",
-        "video",
-        "audio"
+        "video"
       ],
       "quantization": "fp16",
       "context_length": 0,
@@ -98,8 +94,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "图生视频(可带音频)",
+          "label": "480P_with_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -110,8 +106,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "图生视频(可带音频)",
+          "label": "720P_with_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -122,8 +118,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "图生视频(可带音频)",
+          "label": "1080P_with_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -148,12 +144,10 @@
       "name": "wan2.5-t2v-preview",
       "created": 0,
       "input_modalities": [
-        "video",
-        "audio"
+        "video"
       ],
       "output_modalities": [
-        "video",
-        "audio"
+        "video"
       ],
       "quantization": "fp16",
       "context_length": 0,
@@ -162,8 +156,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生视频(可带音频)",
+          "label": "480P_with_audio",
+          "inputMode": "t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -174,8 +168,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生视频(可带音频)",
+          "label": "720P_with_audio",
+          "inputMode": "t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -186,8 +180,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生视频(可带音频)",
+          "label": "1080P_with_audio",
+          "inputMode": "t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -212,11 +206,9 @@
       "name": "wan2.6-i2v",
       "created": 0,
       "input_modalities": [
-        "image",
         "video"
       ],
       "output_modalities": [
-        "image",
         "video"
       ],
       "quantization": "fp16",
@@ -226,8 +218,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "图生视频",
+          "label": "720P",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -238,8 +230,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "图生视频",
+          "label": "1080P",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -264,11 +256,9 @@
       "name": "wan2.6-i2v-flash",
       "created": 0,
       "input_modalities": [
-        "image",
         "video"
       ],
       "output_modalities": [
-        "image",
         "video"
       ],
       "quantization": "fp16",
@@ -278,8 +268,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "图生视频 Flash",
+          "label": "720P_with_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -290,8 +280,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "图生视频 Flash",
+          "label": "1080P_with_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -302,8 +292,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "图生视频 Flash",
+          "label": "720P_without_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -314,8 +304,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "图生视频 Flash",
+          "label": "1080P_without_audio",
+          "inputMode": "i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -352,8 +342,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生视频",
+          "label": "720P",
+          "inputMode": "t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -364,8 +354,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生视频",
+          "label": "1080P",
+          "inputMode": "t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -402,8 +392,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "文生图",
+          "label": "1280x1280,1440x1440",
+          "inputMode": "t2i",
           "prompt": "0",
           "completion": "0",
           "image": "0.200000",
@@ -440,8 +430,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "",
-          "inputMode": "图像编辑/参考图",
+          "label": "image2image",
+          "inputMode": "i2i",
           "prompt": "0",
           "completion": "0",
           "image": "0.200000",
@@ -478,8 +468,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入不含视频",
-          "inputMode": "t2v/i2v/ref2v",
+          "label": "480P/720P",
+          "inputMode": "t2v/i2v",
           "prompt": "0.000046",
           "completion": "0",
           "image": "0",
@@ -490,8 +480,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入含视频",
-          "inputMode": "t2v/i2v/ref2v",
+          "label": "480P/720P",
+          "inputMode": "ref2v",
           "prompt": "0.000028",
           "completion": "0",
           "image": "0",
@@ -502,8 +492,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入不含视频",
-          "inputMode": "t2v/i2v/ref2v",
+          "label": "1080P",
+          "inputMode": "t2v/i2v",
           "prompt": "0.000051",
           "completion": "0",
           "image": "0",
@@ -514,8 +504,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入含视频",
-          "inputMode": "t2v/i2v/ref2v",
+          "label": "1080P",
+          "inputMode": "ref2v",
           "prompt": "0.000031",
           "completion": "0",
           "image": "0",
@@ -526,8 +516,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入不含视频",
-          "inputMode": "t2v/i2v/ref2v",
+          "label": "4K",
+          "inputMode": "t2v/i2v",
           "prompt": "0.000026",
           "completion": "0",
           "image": "0",
@@ -538,8 +528,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入含视频",
-          "inputMode": "t2v/i2v/ref2v",
+          "label": "4K",
+          "inputMode": "ref2v",
           "prompt": "0.000016",
           "completion": "0",
           "image": "0",
@@ -576,8 +566,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入不含视频",
-          "inputMode": "t2v/i2v/ref2v(最高720P)",
+          "label": "<=720P",
+          "inputMode": "t2v/i2v",
           "prompt": "0.000037",
           "completion": "0",
           "image": "0",
@@ -588,8 +578,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "输入含视频",
-          "inputMode": "t2v/i2v/ref2v(最高720P)",
+          "label": "<=720P",
+          "inputMode": "ref2v",
           "prompt": "0.000022",
           "completion": "0",
           "image": "0",
@@ -626,21 +616,9 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "Standard（输入价格）",
-          "inputMode": "文生图/图像编辑",
-          "prompt": "0.0000003",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "Standard（输出价格）",
-          "inputMode": "文生图/图像编辑",
-          "prompt": "0",
+          "label": "Standard",
+          "inputMode": "t2i/i2i",
+          "prompt":     "0.0000003",
           "completion": "0.00003",
           "image": "0",
           "request": "0",
@@ -676,21 +654,9 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "Standard（输入价格）",
-          "inputMode": "文生图/图像编辑(≤14参考图)",
+          "label": "<=14 reference images",
+          "inputMode": "t2i/i2i",
           "prompt": "0.000002",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "Standard（输出价格）",
-          "inputMode": "文生图/图像编辑(≤14参考图)",
-          "prompt": "0",
           "completion": "0.000012",
           "image": "0",
           "request": "0",
@@ -726,22 +692,10 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "Standard",
-          "inputMode": "专业级文生图/编辑",
+          "label": "Pro-level",
+          "inputMode": "t2i/i2i",
           "prompt": "0.0000005",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "Standard",
-          "inputMode": "专业级文生图/编辑",
-          "prompt": "0.000003",
-          "completion": "0",
+          "completion": "0.000003",
           "image": "0",
           "request": "0",
           "duration": "0",
@@ -776,7 +730,7 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "带音频",
+          "label": "720P/1080P_with_audio",
           "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
@@ -788,7 +742,7 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "带音频",
+          "label": "4K_with_audio",
           "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
@@ -826,7 +780,7 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "带音频",
+          "label": "720P/1080P_with_audio",
           "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
@@ -838,19 +792,7 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "带音频",
-          "inputMode": "t2v/i2v",
-          "prompt": "0",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0.100000",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "带音频",
+          "label": "4K_with_audio",
           "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
@@ -871,16 +813,14 @@
       "datacenters": []
     },
     {
-      "id": "kling-v3 (t2v/i2v/首尾帧)",
+      "id": "kling-v3",
       "hugging_face_id": "",
-      "name": "kling-v3 (t2v/i2v/首尾帧)",
+      "name": "kling-v3",
       "created": 0,
       "input_modalities": [
-        "image",
         "video"
       ],
       "output_modalities": [
-        "image",
         "video"
       ],
       "quantization": "fp16",
@@ -890,8 +830,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "文生/图生视频(共用模型)",
+          "label": "720P_without_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -902,8 +842,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "文生/图生视频(共用模型)",
+          "label": "1080P_without_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -914,8 +854,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "文生/图生视频(共用模型)",
+          "label": "4K_without_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -926,8 +866,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "文生/图生视频(共用模型)",
+          "label": "720P_with_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -938,8 +878,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "文生/图生视频(共用模型)",
+          "label": "1080P_with_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -950,8 +890,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "文生/图生视频(共用模型)",
+          "label": "4K_with_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -966,14 +906,14 @@
       "is_free": false,
       "discount_to_user": 0,
       "openrouter": {
-        "slug": "kling-v3 (t2v/i2v/首尾帧)"
+        "slug": "kling-v3 (t2v/i2v)"
       },
       "datacenters": []
     },
     {
-      "id": "kling-v3-omni (t2v/i2v/ref2v)",
+      "id": "kling-v3-omni",
       "hugging_face_id": "",
-      "name": "kling-v3-omni (t2v/i2v/ref2v)",
+      "name": "kling-v3-omni",
       "created": 0,
       "input_modalities": [
         "video"
@@ -988,8 +928,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "Omni无参考视频分支",
+          "label": "720P_without_audio",
+          "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -1000,8 +940,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "Omni无参考视频分支",
+          "label": "1080P_without_audio",
+          "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -1012,8 +952,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "无声",
-          "inputMode": "Omni无参考视频分支",
+          "label": "4K_without_audio",
+          "inputMode": "t2v/i2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -1024,8 +964,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "Omni无参考视频分支",
+          "label": "720P_with_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -1036,8 +976,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "Omni无参考视频分支",
+          "label": "1080P_with_audio",
+          "inputMode": "i2v/t2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -1048,8 +988,43 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "有声",
-          "inputMode": "Omni无参考视频分支",
+          "label": "4K_with_audio",
+          "inputMode": "i2v/t2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "3.000000",
+          "input_cache_read": "0"
+        },{
+          "range_start": 0,
+          "range_end": null,
+          "label": "720P",
+          "inputMode": "ref2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "0.900000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "1080P",
+          "inputMode": "ref2v",
+          "prompt": "0",
+          "completion": "0",
+          "image": "0",
+          "request": "0",
+          "duration": "1.200000",
+          "input_cache_read": "0"
+        },
+        {
+          "range_start": 0,
+          "range_end": null,
+          "label": "4K",
+          "inputMode": "ref2v",
           "prompt": "0",
           "completion": "0",
           "image": "0",
@@ -1068,68 +1043,7 @@
       },
       "datacenters": []
     },
-    {
-      "id": "kling-v3-omni (v2v/v2v-edit)",
-      "hugging_face_id": "",
-      "name": "kling-v3-omni (v2v/v2v-edit)",
-      "created": 0,
-      "input_modalities": [
-        "video"
-      ],
-      "output_modalities": [
-        "video"
-      ],
-      "quantization": "fp16",
-      "context_length": 0,
-      "max_output_length": 0,
-      "pricing": [
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "",
-          "inputMode": "Omni有参考视频分支",
-          "prompt": "0",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0.900000",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "",
-          "inputMode": "Omni有参考视频分支",
-          "prompt": "0",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "1.200000",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "",
-          "inputMode": "Omni有参考视频分支",
-          "prompt": "0",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "3.000000",
-          "input_cache_read": "0"
-        }
-      ],
-      "supported_sampling_parameters": [],
-      "supported_features": [],
-      "is_ready": true,
-      "is_free": false,
-      "discount_to_user": 0,
-      "openrouter": {
-        "slug": "kling-v3-omni (v2v/v2v-edit)"
-      },
-      "datacenters": []
-    },
+
     {
       "id": "gpt-image-2",
       "hugging_face_id": "",
@@ -1148,57 +1062,47 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "图像输入",
-          "inputMode": "文生图/图像编辑(≤2K)",
+          "label": "image generation",
+          "inputMode": "t2i/i2i",
           "prompt": "0.000008",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "图像输入(缓存)",
-          "inputMode": "文生图/图像编辑(≤2K)",
-          "prompt": "0",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0",
-          "input_cache_read": "0.000002"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "图像输出",
-          "inputMode": "文生图/图像编辑(≤2K)",
-          "prompt": "0",
           "completion": "0.00003",
           "image": "0",
           "request": "0",
           "duration": "0",
-          "input_cache_read": "0"
-        },
+          "input_cache_read": "0.000002"
+        }
+      ],
+      "supported_sampling_parameters": [],
+      "supported_features": [],
+      "is_ready": true,
+      "is_free": false,
+      "discount_to_user": 0,
+      "openrouter": {
+        "slug": "gpt-image-2"
+      },
+      "datacenters": []
+    },
+    {
+      "id": "gpt-image-2",
+      "hugging_face_id": "",
+      "name": "gpt-image-2",
+      "created": 0,
+      "input_modalities": [
+        "chat"
+      ],
+      "output_modalities": [
+        "chat"
+      ],
+      "quantization": "fp16",
+      "context_length": 0,
+      "max_output_length": 0,
+      "pricing": [
         {
           "range_start": 0,
           "range_end": null,
-          "label": "文本输入",
-          "inputMode": "文生图/图像编辑(≤2K)",
+          "label": "image read",
+          "inputMode": "",
           "prompt": "0.000005",
-          "completion": "0",
-          "image": "0",
-          "request": "0",
-          "duration": "0",
-          "input_cache_read": "0"
-        },
-        {
-          "range_start": 0,
-          "range_end": null,
-          "label": "文本输入(缓存)",
-          "inputMode": "文生图/图像编辑(≤2K)",
-          "prompt": "0",
           "completion": "0",
           "image": "0",
           "request": "0",
