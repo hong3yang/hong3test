@@ -1070,34 +1070,7 @@
           "request": "0",
           "duration": "0",
           "input_cache_read": "0.000002"
-        }
-      ],
-      "supported_sampling_parameters": [],
-      "supported_features": [],
-      "is_ready": true,
-      "is_free": false,
-      "discount_to_user": 0,
-      "openrouter": {
-        "slug": "gpt-image-2"
-      },
-      "datacenters": []
-    },
-    {
-      "id": "gpt-image-2",
-      "hugging_face_id": "",
-      "name": "gpt-image-2",
-      "created": 0,
-      "input_modalities": [
-        "chat"
-      ],
-      "output_modalities": [
-        "chat"
-      ],
-      "quantization": "fp16",
-      "context_length": 0,
-      "max_output_length": 0,
-      "pricing": [
-        {
+        },{
           "range_start": 0,
           "range_end": null,
           "label": "image read",
