@@ -1,9 +1,9 @@
 {
   "data": [
-    {
-      "id": "wan2.5-i2i-preview",
+  {
+      "id": "wan2.5-t2i-preview",
       "hugging_face_id": "",
-      "name": "wan2.5-i2i-preview",
+      "name": "wan2.5-t2i-preview",
       "created": 0,
       "input_modalities": [
         "image"
@@ -18,8 +18,8 @@
         {
           "range_start": 0,
           "range_end": null,
-          "label": "image2image",
-          "inputMode": "i2i",
+          "label": "text2image",
+          "inputMode": "t2i",
           "prompt": "0",
           "completion": "0",
           "image": "0.200000",
@@ -34,7 +34,8 @@
       "is_free": false,
       "discount_to_user": 0,
       "openrouter": {
-        "slug": "wan2.5-i2i-preview"
+        "slug": "wan2.5-t2i-preview"
       },
       "datacenters": []
-    }]}
+    }  
+  ]}
