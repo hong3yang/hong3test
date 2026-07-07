@@ -4,7 +4,9 @@
       "id": "wan2.5-t2i-preview",
       "hugging_face_id": "",
       "name": "wan2.5-t2i-preview",
+      "releaseDate":"2026-01-01",
       "created": 0,
+      "use_cases":[],
       "input_modalities": [
         "image"
       ],
@@ -25,7 +27,8 @@
           "image": "0.200000",
           "request": "0",
           "duration": "0",
-          "input_cache_read": "0"
+          "input_cache_read": "1",
+          "input_cache_write":"1"
         }
       ],
       "supported_sampling_parameters": [],
